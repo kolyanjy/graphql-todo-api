@@ -1,0 +1,9 @@
+require: rubocop-graphql
+AllCops:
+  SuggestExtensions: false
+  Exclude:
+    - 'bin/*'
+    - 'vendor/**/*'
+    - 'config/**/*'
+Style/Documentation:
+  Enabled: false
